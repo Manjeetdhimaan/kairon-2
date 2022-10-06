@@ -35,6 +35,20 @@ body::before {
   }
 }
 
+@media (max-width: 440px) {
+  body::before {
+    /* background-attachment: fixed; */
+    background: #040404 url("../img/KAIRON.jpg") top right no-repeat;
+  }
+}
+
+@media (max-width: 440px) {
+  .container.heading {
+   position: fixed;
+   top:40px
+  }
+}
+
 a {
   color: #18d26e;
   text-decoration: none;
