@@ -29,6 +29,13 @@ body::before {
   z-index: -1;
 }
 
+.bottom-text {
+  /* visibility: hidden;
+  opacity: 0; */
+  position: fixed;
+  bottom: 50px;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -39,6 +46,11 @@ body::before {
   body::before {
     /* background-attachment: fixed; */
     background: #040404 url("../img/KAIRON.jpg") top right no-repeat;
+  }
+
+  .bottom-text {
+    visibility: visible;
+    opacity: 1;
   }
 }
 
